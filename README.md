@@ -63,6 +63,8 @@ Please follow the steps carefully and read each command before executing.
 
 ```
 aws s3api create-bucket --bucket kops-abhi-storage --region us-east-1
+
+aws s3api create-bucket --bucket kops-chandu --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1
 ```
 
 ### Create the cluster 
